@@ -1,0 +1,29 @@
+body{
+    padding: 16px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 150px;
+}
+
+.navbar-custom {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+#data-form .has-error .control-label,
+#data-form .has-error .help-block,
+#data-form .has-error .form-control-feedback {
+	color : #a94442;
+}
+
+#data-form .has-success .control-label,
+#data-form .has-success .help-block,
+#data-form .has-success .form-control-feedback {
+    /*color: #18bc9c;*/
+	color: #2b542c;
+}
